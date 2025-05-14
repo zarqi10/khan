@@ -34,7 +34,8 @@ android.permissions =
 # Android configuration
 android.api = 31
 android.minapi = 21
-android.ndk = 23b
+android.ndk_path = /root/.buildozer/android/platform/android-ndk-r25b
+android.ndk_version = 25b
 android.archs = arm64-v8a, armeabi-v7a
 android.allow_backup = True
 android.gradle_dependencies = 'com.android.support:multidex:1.0.3'
