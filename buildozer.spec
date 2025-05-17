@@ -86,7 +86,8 @@ android.minapi = 23 # Android 6.0 (Marshmallow) - balances compatibility and mod
 android.sdk = 20 # Usually fine, p4a manages this.
 
 # (int) Android NDK version to use
-android.ndk = 19c # Common stable choice, p4a often defaults or downloads a suitable one.
+android.ndk = 19c 
+# Common stable choice, p4a often defaults or downloads a suitable one.
 
 # (str) Android NDK directory (if not using an auto-downloaded one)
 # android.ndk_path = /path/to/your/ndk
